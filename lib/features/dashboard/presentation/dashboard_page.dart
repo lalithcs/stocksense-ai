@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 6.3 seconds
-Output:
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -66,4 +63,3 @@ class _ErrorView extends StatelessWidget {
   final VoidCallback onRetry;
   @override Widget build(BuildContext context) => Center(child: FilledButton.icon(onPressed: onRetry, icon: const Icon(Icons.refresh), label: const Text('Retry')));
 }
-

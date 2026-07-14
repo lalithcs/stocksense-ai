@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 5.3 seconds
-Output:
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -58,4 +55,3 @@ class _MetricGrid extends StatelessWidget {
       children: values.entries.map((entry) => Card(child: Padding(padding: const EdgeInsets.all(12), child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [Text(entry.key), Text(entry.value, style: Theme.of(context).textTheme.titleMedium)])))).toList());
   }
 }
-
