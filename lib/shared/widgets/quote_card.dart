@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 5.3 seconds
-Output:
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
@@ -38,4 +35,3 @@ class QuoteCard extends StatelessWidget {
     );
   }
 }
-
